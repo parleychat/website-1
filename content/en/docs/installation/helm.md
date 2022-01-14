@@ -138,7 +138,7 @@ Next, delete the cert-manager namespace:
 $ kubectl delete namespace cert-manager
 ```
 
-Finally, delete the cert-manger
+Finally, delete the cert-manager
 [`CustomResourceDefinitions`](https://kubernetes.io/docs/concepts/extend-kubernetes/api-extension/custom-resources/)
 using the link to the version `vX.Y.Z` you installed:
 > **Warning**: This command will also remove installed cert-manager CRDs. All
